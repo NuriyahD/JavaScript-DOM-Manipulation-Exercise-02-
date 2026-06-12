@@ -1,0 +1,38 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+
+#profileCard{
+    border: 2px solid black;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    width: 500px;
+    margin-top: 20px;
+}
+
+#profileImage{
+    width: 300px;
+    height: 300px;
+}
+
+#profileRole{
+    font-weight: bold;
+}
+
+button{
+    background-color: blueviolet
+    ;
+    color: antiquewhite;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.buttons{
+    display: inline;
+}
